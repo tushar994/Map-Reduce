@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/ds-m21-user0/HW4_team16/map_reduce_sample_code/venv/bin/python3
 """reducer.py"""
 
 from operator import itemgetter
@@ -42,9 +42,9 @@ for line in sys.stdin:
     #     current_word = word
 
 # do not forget to output the last word if needed!
-if "link" in data:
-    print(data["link"][0],end=" ")
-    del data["link"]
+if "links" in data:
+    print(data["links"][0],end=" ")
+    del data["links"]
 if "edges" in data:
     print(data["edges"][0])
     del data["edges"]

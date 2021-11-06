@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/ds-m21-user0/HW4_team16/map_reduce_sample_code/venv/bin/python3
 """mapper.py"""
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
